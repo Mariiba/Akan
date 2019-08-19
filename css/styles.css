@@ -13,9 +13,25 @@ h2{
 }
 #submit{
     margin: 20px;
-    padding: 10px;
-    color: blue;
+    padding: 8px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
 }
 .input{
     padding-left: 20px;
+}
+.jumbotron{
+    background-color:green;
+}
+#month{
+    width: 250px;
+    border-radius: 5px;
+}
+#year{
+    width: 250px;
+    border-radius: 5px;
+}
+#dob{
+    width: 250px;
+    border-radius: 5px;
 }

@@ -47,6 +47,7 @@ function validation(){
         return formValid;
     }
 
+
      //male Akan names
     var maleNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
@@ -65,10 +66,10 @@ function validation(){
 
 
     //formula
-    var calculator= Math.floor(((cc/4)-2*cc-1)+(5*yy/4)+((26*(mm+1)/10)+dd)%7);
+    var calculator= Math.floor( ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7);
      
 
-    //male names
+    //male  and female names
 
     if(male == true && calculator == 1){
         document.getElementById("result").innerHTML=("Your Akan name is " + maleNames[0] + ".")
@@ -91,13 +92,7 @@ function validation(){
     else if(male == true && calculator == 7){
         document.getElementById("result").innerHTML=("Your Akan name is " + maleNames[6] + ".")
     }
-    else{
-        alert("The information you entered is invalid!")
-    }
-
-    //female names
-
-    if(female == true && calculator == 1){
+    else if(female == true && calculator == 1){
         document.getElementById("result").innerHTML=("Your Akan name is " + femaleNames[0] + ".")
     }
     else if(female == true && calculator == 2){
@@ -125,5 +120,17 @@ function validation(){
 
 
 
+
+
+if(document.getElementById("male").checked){
+    var gender = "male"
+}
+else{
+    var gender = "female"
+}
+
+if(gender=="male" && calculator === 0){
+    
+}
 
     
