@@ -26,7 +26,10 @@ Mariiba
  HTML - Spell out the page structure.
  CSS - Page styling
 
- ### Contact Information
+ ### Known bugs
+ Major advancements need to be incorporated to make the results more accurate.For instance,ensuring that specific months are strictly relative to the number of days.
+ 
+  ### Contact Information
  Find me at <https://github.com/Mariiba> to give your feedback or suggestions or both.
 
  ### License 
